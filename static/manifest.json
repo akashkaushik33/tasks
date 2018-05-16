@@ -1,6 +1,6 @@
 {
   "name": "Souq Project Tasks",
-  "start_url": "http://tasks.cryptocracy.io",
+  "start_url": "https://tasks.cryptocracy.io",
   "description": "A decentralized task app built for Souq Projects",
   "icons": [{
     "src": "https://raw.githubusercontent.com/cryptocracy/images/master/tasks.png",
