@@ -11,6 +11,9 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  data: {
+      showModal: false
+  }
   template: '<App/>',
-  components: { App }
+  components: { App, modal }
 })
