@@ -33,12 +33,9 @@
               <label>
                 {{ project.text }}
               </label>
-              <button @click.prevent=""
-                class="btn btn-default"
-                href="#">Add Task</button>
-              <a @click.prevent="projects.splice(projects.indexOf(project), 1)"
-                class="delete pull-right"
-                href="#">Remove Project</a>
+              <button @click.prevent="" class="btn btn-default" href="#">Copy Path</button>
+              <button @click.prevent="" class="btn btn-default" href="#">Add Task</button>
+              <a @click.prevent="projects.splice(projects.indexOf(project), 1)" class="delete pull-right" href="#">Remove Project</a>
             </li>
           </ul>
 
