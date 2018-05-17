@@ -41,3 +41,5 @@ Build command: `npm run build`
 Publish directory: `dist`
 
 Production branch: `master`
+
+Extra setup steps: setup SSL/TLS certificate, setup a cname, force https
