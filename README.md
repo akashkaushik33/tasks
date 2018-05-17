@@ -23,3 +23,21 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 To get started with Blockstack decentralized applications visit [Blockstack](https://blockstack.org)
+
+## Continuous Deploy from Repo On Netlify
+
+- fork this repo into your own github account.
+
+- on the Netlify.com, sign into the dashboard using your github account 
+
+- press the green button "New site from Git" 
+
+- walk thru wizard to authorize Netlify to setup the Continuous Deployment based on your repo(Connect to Git provider, Pick Repo, set the Build/Deploy settings)
+
+- Build/Deploy Settings
+
+Build command: `npm run build`
+
+Publish directory: `dist`
+
+Production branch: `master`
